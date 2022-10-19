@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1CEBE30B28FF833D008AF554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE30A28FF833D008AF554 /* AppDelegate.swift */; };
 		1CEBE30D28FF833D008AF554 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE30C28FF833D008AF554 /* SceneDelegate.swift */; };
-		1CEBE30F28FF833D008AF554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE30E28FF833D008AF554 /* ViewController.swift */; };
+		1CEBE30F28FF833D008AF554 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE30E28FF833D008AF554 /* LoginVC.swift */; };
 		1CEBE31228FF833D008AF554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE31028FF833D008AF554 /* Main.storyboard */; };
 		1CEBE31428FF8340008AF554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE31328FF8340008AF554 /* Assets.xcassets */; };
 		1CEBE31728FF8340008AF554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE31528FF8340008AF554 /* LaunchScreen.storyboard */; };
+		1CEBE31F28FF8734008AF554 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE31E28FF8734008AF554 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CEBE30728FF833D008AF554 /* iOS_Demo_template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Demo_template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CEBE30A28FF833D008AF554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CEBE30C28FF833D008AF554 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CEBE30E28FF833D008AF554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CEBE30E28FF833D008AF554 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1CEBE31128FF833D008AF554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CEBE31328FF8340008AF554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CEBE31628FF8340008AF554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CEBE31828FF8340008AF554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEBE31E28FF8734008AF554 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				1CEBE30A28FF833D008AF554 /* AppDelegate.swift */,
 				1CEBE30C28FF833D008AF554 /* SceneDelegate.swift */,
-				1CEBE30E28FF833D008AF554 /* ViewController.swift */,
+				1CEBE30E28FF833D008AF554 /* LoginVC.swift */,
 				1CEBE31028FF833D008AF554 /* Main.storyboard */,
 				1CEBE31328FF8340008AF554 /* Assets.xcassets */,
 				1CEBE31528FF8340008AF554 /* LaunchScreen.storyboard */,
 				1CEBE31828FF8340008AF554 /* Info.plist */,
+				1CEBE31E28FF8734008AF554 /* HomeVC.swift */,
 			);
 			path = iOS_Demo_template;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CEBE30F28FF833D008AF554 /* ViewController.swift in Sources */,
+				1CEBE30F28FF833D008AF554 /* LoginVC.swift in Sources */,
+				1CEBE31F28FF8734008AF554 /* HomeVC.swift in Sources */,
 				1CEBE30B28FF833D008AF554 /* AppDelegate.swift in Sources */,
 				1CEBE30D28FF833D008AF554 /* SceneDelegate.swift in Sources */,
 			);
